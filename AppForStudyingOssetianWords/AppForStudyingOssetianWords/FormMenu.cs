@@ -18,8 +18,8 @@ namespace AppForStudyingOssetianWords
         private void buttonStart_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FormChoose FormChoose = new FormChoose();
-            FormChoose.Show();
+            FormAnimalsOnField formAnimalsOnField = new FormAnimalsOnField();
+            formAnimalsOnField.Show();
         }
 
         private void buttonResults_Click(object sender, EventArgs e)

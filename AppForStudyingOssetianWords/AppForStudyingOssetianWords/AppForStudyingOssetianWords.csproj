@@ -46,29 +46,11 @@
     <Compile Include="FormResults.Designer.cs">
       <DependentUpon>FormResults.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCombineSoundWord.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormCombineSoundWord.Designer.cs">
-      <DependentUpon>FormCombineSoundWord.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormCombineWordsImages.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormCombineWordsImages.Designer.cs">
-      <DependentUpon>FormCombineWordsImages.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormAnimalsOnField.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormAnimalsOnField.Designer.cs">
       <DependentUpon>FormAnimalsOnField.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormChoose.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormChoose.Designer.cs">
-      <DependentUpon>FormChoose.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
@@ -78,17 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCombineSoundWord.resx">
-      <DependentUpon>FormCombineSoundWord.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCombineWordsImages.resx">
-      <DependentUpon>FormCombineWordsImages.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormAnimalsOnField.resx">
       <DependentUpon>FormAnimalsOnField.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormChoose.resx">
-      <DependentUpon>FormChoose.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
@@ -97,13 +70,14 @@
       <DependentUpon>FormResults.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -114,6 +88,45 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\mainCharacter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\mainCharacter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animaldog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalcat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalcow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalsquirrel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalturtle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalduck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalhare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalbear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalfox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\animalwolf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainCharacter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
