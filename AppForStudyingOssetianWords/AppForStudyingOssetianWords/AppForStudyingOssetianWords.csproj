@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>AppForStudyingOssetianWords</RootNamespace>
     <AssemblyName>AppForStudyingOssetianWords</AssemblyName>
-    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pair.cs" />
     <Compile Include="FormResults.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,9 +94,6 @@
     <None Include="bin\Debug\mainCharacter.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\mainCharacter.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Resources\animaldog.png" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +125,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mainCharacter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainCharacter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainCharacterForward.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainCharacterSmashMovement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\landscape.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -163,9 +163,59 @@ namespace AppForStudyingOssetianWords.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap fence {
+            get {
+                object obj = ResourceManager.GetObject("fence", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap landscape {
+            get {
+                object obj = ResourceManager.GetObject("landscape", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap mainCharacter {
             get {
                 object obj = ResourceManager.GetObject("mainCharacter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mainCharacterBackward {
+            get {
+                object obj = ResourceManager.GetObject("mainCharacterBackward", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mainCharacterForward {
+            get {
+                object obj = ResourceManager.GetObject("mainCharacterForward", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap MainCharacterSmashMovement {
+            get {
+                object obj = ResourceManager.GetObject("MainCharacterSmashMovement", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -9,3 +9,4 @@ D:\Курсач\AppForStudyingOssetianWords\AppForStudyingOssetianWords\obj\Debu
 D:\Курсач\AppForStudyingOssetianWords\AppForStudyingOssetianWords\obj\Debug\AppForStudyingOssetianWords.pdb
 D:\Курсач\AppForStudyingOssetianWords\AppForStudyingOssetianWords\obj\Debug\AppForStudyingOssetianWords.FormAnimalsOnField.resources
 D:\Курсач\AppForStudyingOssetianWords\AppForStudyingOssetianWords\obj\Debug\AppForStudyingOssetianWords.FormResults.resources
+D:\Курсач\AppForStudyingOssetianWords\AppForStudyingOssetianWords\obj\Debug\AppForStudyingOssetianWords.csproj.SuggestedBindingRedirects.cache

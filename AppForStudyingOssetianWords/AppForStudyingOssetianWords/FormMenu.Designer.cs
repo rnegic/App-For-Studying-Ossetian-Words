@@ -40,17 +40,17 @@
             this.labelWelcome.AutoSize = true;
             this.labelWelcome.BackColor = System.Drawing.Color.Transparent;
             this.labelWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelWelcome.Location = new System.Drawing.Point(31, 122);
+            this.labelWelcome.Location = new System.Drawing.Point(52, 121);
             this.labelWelcome.Name = "labelWelcome";
-            this.labelWelcome.Size = new System.Drawing.Size(931, 37);
+            this.labelWelcome.Size = new System.Drawing.Size(820, 37);
             this.labelWelcome.TabIndex = 0;
-            this.labelWelcome.Text = "Добро пожаловать в приложение для изучения осетинских слов!";
+            this.labelWelcome.Text = "Добро пожаловать в игру для изучения осетинских слов!";
             // 
             // buttonStart
             // 
             this.buttonStart.BackColor = System.Drawing.Color.GhostWhite;
             this.buttonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonStart.Location = new System.Drawing.Point(59, 234);
+            this.buttonStart.Location = new System.Drawing.Point(59, 214);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(382, 130);
             this.buttonStart.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             this.buttonResults.BackColor = System.Drawing.Color.GhostWhite;
             this.buttonResults.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonResults.Location = new System.Drawing.Point(530, 234);
+            this.buttonResults.Location = new System.Drawing.Point(488, 214);
             this.buttonResults.Name = "buttonResults";
             this.buttonResults.Size = new System.Drawing.Size(384, 130);
             this.buttonResults.TabIndex = 2;
@@ -75,7 +75,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(12, 383);
+            this.label1.Location = new System.Drawing.Point(24, 363);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(480, 72);
             this.label1.TabIndex = 6;
