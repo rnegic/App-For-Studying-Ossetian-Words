@@ -163,9 +163,9 @@ namespace AppForStudyingOssetianWords.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap fence {
+        public static System.Drawing.Bitmap grassButterflies {
             get {
-                object obj = ResourceManager.GetObject("fence", resourceCulture);
+                object obj = ResourceManager.GetObject("grassButterflies", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +176,16 @@ namespace AppForStudyingOssetianWords.Properties {
         public static System.Drawing.Bitmap landscape {
             get {
                 object obj = ResourceManager.GetObject("landscape", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap landscapeWithFence {
+            get {
+                object obj = ResourceManager.GetObject("landscapeWithFence", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +226,16 @@ namespace AppForStudyingOssetianWords.Properties {
         public static System.Drawing.Bitmap MainCharacterSmashMovement {
             get {
                 object obj = ResourceManager.GetObject("MainCharacterSmashMovement", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap tree {
+            get {
+                object obj = ResourceManager.GetObject("tree", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -148,11 +148,14 @@
   <data name="animalwolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalwolf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fence" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fence.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grassButterflies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grassButterflies.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscapeWithFence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscapeWithFence.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mainCharacter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mainCharacter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,5 +168,8 @@
   </data>
   <data name="MainCharacterSmashMovement" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MainCharacterSmashMovement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

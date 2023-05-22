@@ -15,6 +15,12 @@ namespace AppForStudyingOssetianWords
 
         Random random = new Random();
         string[] animals = { "wolf", "fox", "bear", "hare", "duck", "turtle", "squirrel", "cow", "cat", "dog" };
+        //словарь для отображения слов на осетинском
+        Dictionary<string, string> dictOssetianAnimals = new Dictionary<string, string>()
+        {
+            {"animalwolf", "бирæгъ"}, {"animalfox", "рувас"}, {"animalbear", "арс"}, {"animalhare", "тæрхъус"}, {"animalduck", "бабыз"},
+            {"animalturtle", "уæртджын хæфс"}, {"animalsquirrel", "æхсæрæг"}, {"animalcow", "хъуг"}, {"animalcat", "гæды"}, {"animaldog", "куыдз"}
+        };
         public FormAnimalsOnField()
         {
             InitializeComponent();
@@ -33,7 +39,7 @@ namespace AppForStudyingOssetianWords
             PictureBox newAnimal = new PictureBox();
             //newAnimal.Image = Properties.Resources.animalcow;
             string resourceName = "animal" + animal;
-            newAnimal.Image = (Image)Properties.Resources.ResourceManager.GetObject(resourceName);
+            newAnimal.Image = (Image)Resources.ResourceManager.GetObject(resourceName);
             newAnimal.Size = new Size(110, 110);
             newAnimal.SizeMode = PictureBoxSizeMode.StretchImage;
             newAnimal.Location = new Point(x, y);
@@ -102,7 +108,7 @@ namespace AppForStudyingOssetianWords
             //Проверка на то, что все животные пойманы
             if (animalPictureBoxes.Count == 0)
             {
-                MessageBox.Show("Все животные пойманы!");
+                MessageBox.Show($"Все животные пойманы! \nАлы цæрæгой æрцахстай!");
             }
 
         }
@@ -126,6 +132,9 @@ namespace AppForStudyingOssetianWords
                 {
                     Controls.Remove(animal);
                     animalPictureBoxes.Remove(pair);
+
+                    //появление названия животного на осетинском
+                    createLabel((string)animal.Tag);
 
                     //временный PictureBox, чтобы зафиксировать, какой из PictureBox'ов был использован последний раз(чтобы правильно восстановить его)
                     //PictureBox temp = pictureBoxMainCharacter;
@@ -151,8 +160,36 @@ namespace AppForStudyingOssetianWords
             }
         }
 
+        //функция для создания названия животного 
+        private void createLabel(string name)
+        {
+            Label label = new Label();
+            label.Text = $"{dictOssetianAnimals[name]}";
+            label.Name = name;
+            label.TextAlign = ContentAlignment.MiddleCenter;
+            label.Location = new Point((this.ClientSize.Width - label.Width-220) / 2, this.ClientSize.Height - 100);
+            label.Size = new Size(400, 40);
+            label.ForeColor = Color.OrangeRed;
+            label.Font = new Font("Timew New Roman", 28, FontStyle.Regular);
+            this.Controls.Add(label);
+
+            Timer labelTimer = new Timer();
+            labelTimer.Interval = 1200;
+            labelTimer.Tick += LabelTimer_Tick;
+            labelTimer.Tag = label;
+            labelTimer.Start();
+        }
+        private void LabelTimer_Tick(object sender, EventArgs e)
+        {
+            Timer timer = (Timer)sender;
+            timer.Stop();
+
+            Label label = (Label)timer.Tag;
+            this.Controls.Remove(label);
+        }
+
         //решение проблемы закрытия основной формы
-        public void global_FormClosed(object sender, EventArgs e)
+        private void global_FormClosed(object sender, EventArgs e)
         {
             Application.Exit();
         }
