@@ -47,7 +47,7 @@ namespace AppForStudyingOssetianWords
             newAnimal.BackColor = Color.Transparent;
 
             // добавляем животное в список и на форму
-            animalPictureBoxes.Add(new Pair { PictureBox = newAnimal, Direction = new Point(2, 1) });
+            animalPictureBoxes.Add(new Pair { PictureBox = newAnimal, Direction = new Point(7, 1) });
             this.Controls.Add(newAnimal);
         }
 
