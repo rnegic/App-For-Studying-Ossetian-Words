@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
             this.labelWelcome = new System.Windows.Forms.Label();
             this.buttonStart = new System.Windows.Forms.Button();
-            this.buttonResults = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -41,7 +40,7 @@
             this.labelWelcome.AutoSize = true;
             this.labelWelcome.BackColor = System.Drawing.Color.Transparent;
             this.labelWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelWelcome.Location = new System.Drawing.Point(92, 163);
+            this.labelWelcome.Location = new System.Drawing.Point(95, 166);
             this.labelWelcome.Name = "labelWelcome";
             this.labelWelcome.Size = new System.Drawing.Size(820, 37);
             this.labelWelcome.TabIndex = 0;
@@ -51,32 +50,20 @@
             // 
             this.buttonStart.BackColor = System.Drawing.Color.GhostWhite;
             this.buttonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonStart.Location = new System.Drawing.Point(99, 237);
+            this.buttonStart.Location = new System.Drawing.Point(183, 240);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(382, 130);
+            this.buttonStart.Size = new System.Drawing.Size(625, 130);
             this.buttonStart.TabIndex = 1;
             this.buttonStart.Text = "Начать игру!\r\n\r\nРайдайын хъазын!";
             this.buttonStart.UseVisualStyleBackColor = false;
             this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
-            // 
-            // buttonResults
-            // 
-            this.buttonResults.BackColor = System.Drawing.Color.GhostWhite;
-            this.buttonResults.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonResults.Location = new System.Drawing.Point(528, 237);
-            this.buttonResults.Name = "buttonResults";
-            this.buttonResults.Size = new System.Drawing.Size(384, 130);
-            this.buttonResults.TabIndex = 2;
-            this.buttonResults.Text = "Мои результаты\r\n\r\nМæ фæстиуæгтæ\r\n";
-            this.buttonResults.UseVisualStyleBackColor = false;
-            this.buttonResults.Click += new System.EventHandler(this.buttonResults_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(42, 391);
+            this.label1.Location = new System.Drawing.Point(266, 389);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(480, 54);
             this.label1.TabIndex = 6;
@@ -91,7 +78,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.OliveDrab;
-            this.label2.Location = new System.Drawing.Point(390, 79);
+            this.label2.Location = new System.Drawing.Point(394, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(236, 38);
             this.label2.TabIndex = 7;
@@ -106,7 +93,6 @@
             this.ClientSize = new System.Drawing.Size(984, 661);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonResults);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.labelWelcome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -122,7 +108,6 @@
 
         private System.Windows.Forms.Label labelWelcome;
         private System.Windows.Forms.Button buttonStart;
-        private System.Windows.Forms.Button buttonResults;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }

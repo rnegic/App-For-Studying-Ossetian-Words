@@ -121,38 +121,65 @@
   <data name="animalbear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalbear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="animalbearSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalbearSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="animalcat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalcat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animalcatSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalcatSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="animalcow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalcow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="animalcowSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalcowSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="animaldog" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animaldog.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animaldogSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animaldogSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="animalduck" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalduck.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="animalduckSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalduckSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="animalfox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalfox.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animalfoxSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalfoxSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="animalhare" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalhare.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="animalhareSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalhareSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="animalsquirrel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalsquirrel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animalsquirrelSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalsquirrelSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="animalturtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalturtle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="animalturtleSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalturtleSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="animalwolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animalwolf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="animalwolfSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animalwolfSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="grassButterflies" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\grassButterflies.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\landscape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="landscapeWithFence" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\landscapeWithFence.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

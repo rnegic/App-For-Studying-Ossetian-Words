@@ -21,12 +21,5 @@ namespace AppForStudyingOssetianWords
             FormAnimalsOnField formAnimalsOnField = new FormAnimalsOnField();
             formAnimalsOnField.Show();
         }
-
-        private void buttonResults_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FormResults formResults = new FormResults();
-            formResults.Show();
-        }
     }
 }

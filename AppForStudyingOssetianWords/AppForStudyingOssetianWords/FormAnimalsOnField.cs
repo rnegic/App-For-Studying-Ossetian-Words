@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Media;
 using System.Text;
 using System.Windows.Forms;
 
@@ -12,15 +13,17 @@ namespace AppForStudyingOssetianWords
     public partial class FormAnimalsOnField : Form
     {
         List<Pair> animalPictureBoxes = new List<Pair>();
-
         Random random = new Random();
+
         string[] animals = { "wolf", "fox", "bear", "hare", "duck", "turtle", "squirrel", "cow", "cat", "dog" };
-        //словарь для отображения слов на осетинском
+
+        //словарь, в дальнейшем используем его для отображения слов на осетинском
         Dictionary<string, string> dictOssetianAnimals = new Dictionary<string, string>()
         {
             {"animalwolf", "бирæгъ"}, {"animalfox", "рувас"}, {"animalbear", "арс"}, {"animalhare", "тæрхъус"}, {"animalduck", "бабыз"},
             {"animalturtle", "уæртджын хæфс"}, {"animalsquirrel", "æхсæрæг"}, {"animalcow", "хъуг"}, {"animalcat", "гæды"}, {"animaldog", "куыдз"}
         };
+
         public FormAnimalsOnField()
         {
             InitializeComponent();
@@ -37,7 +40,6 @@ namespace AppForStudyingOssetianWords
         {
 
             PictureBox newAnimal = new PictureBox();
-            //newAnimal.Image = Properties.Resources.animalcow;
             string resourceName = "animal" + animal;
             newAnimal.Image = (Image)Resources.ResourceManager.GetObject(resourceName);
             newAnimal.Size = new Size(110, 110);
@@ -113,13 +115,14 @@ namespace AppForStudyingOssetianWords
 
         }
 
-        //для анимации "удара"
+        //таймер для анимации "удара": заменяем картинку главного героя обратно
         private void timerAnimation_Tick(object sender, EventArgs e)
         {
             pictureBoxMainCharacter.Image = Resources.mainCharacterForward;
             timerAnimation.Stop();
         }
 
+        //таймер для реализации поимки животного
         private void timer_Tick(object sender, EventArgs e)
         {
             foreach (Pair pair in animalPictureBoxes.ToArray())
@@ -133,12 +136,15 @@ namespace AppForStudyingOssetianWords
                     Controls.Remove(animal);
                     animalPictureBoxes.Remove(pair);
 
+                    //Воспроизводим название животного на осетинском
+                    string nameSound = $"{(string)animal.Tag}Sound";
+                    SoundPlayer sound = new SoundPlayer(Resources.ResourceManager.GetStream(nameSound));
+                    sound.Play();
+
                     //появление названия животного на осетинском
                     createLabel((string)animal.Tag);
 
-                    //временный PictureBox, чтобы зафиксировать, какой из PictureBox'ов был использован последний раз(чтобы правильно восстановить его)
-                    //PictureBox temp = pictureBoxMainCharacter;
-
+                    //запускаем таймер для анимации удара, заменяем картинку главного героя на картинку с ударом
                     timerAnimation.Start();
                     pictureBoxMainCharacter.Image = Resources.MainCharacterSmashMovement;
                     break;
@@ -159,8 +165,7 @@ namespace AppForStudyingOssetianWords
                 }
             }
         }
-
-        //функция для создания названия животного 
+        //функция для создания label животного
         private void createLabel(string name)
         {
             Label label = new Label();
@@ -173,6 +178,7 @@ namespace AppForStudyingOssetianWords
             label.Font = new Font("Timew New Roman", 28, FontStyle.Regular);
             this.Controls.Add(label);
 
+            //создаем таймер для label
             Timer labelTimer = new Timer();
             labelTimer.Interval = 1200;
             labelTimer.Tick += LabelTimer_Tick;
@@ -184,8 +190,8 @@ namespace AppForStudyingOssetianWords
             Timer timer = (Timer)sender;
             timer.Stop();
 
-            Label label = (Label)timer.Tag;
-            this.Controls.Remove(label);
+            //проходит время таймера, убираем label
+            this.Controls.Remove((Label)timer.Tag);
         }
 
         //решение проблемы закрытия основной формы

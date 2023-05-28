@@ -41,12 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pair.cs" />
-    <Compile Include="FormResults.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormResults.Designer.cs">
-      <DependentUpon>FormResults.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormAnimalsOnField.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,9 +60,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormResults.resx">
-      <DependentUpon>FormResults.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -136,9 +127,6 @@
     <None Include="Resources\MainCharacterSmashMovement.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\landscape.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\landscapeWithFence.png" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +134,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalduckSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalfoxSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalhareSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalsquirrelSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalturtleSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalcatSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalwolfSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animaldogSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalbearSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animalcowSound.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

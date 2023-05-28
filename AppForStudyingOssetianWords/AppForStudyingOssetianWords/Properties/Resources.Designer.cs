@@ -71,12 +71,30 @@ namespace AppForStudyingOssetianWords.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalbearSound {
+            get {
+                return ResourceManager.GetStream("animalbearSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap animalcat {
             get {
                 object obj = ResourceManager.GetObject("animalcat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalcatSound {
+            get {
+                return ResourceManager.GetStream("animalcatSound", resourceCulture);
             }
         }
         
@@ -91,12 +109,30 @@ namespace AppForStudyingOssetianWords.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalcowSound {
+            get {
+                return ResourceManager.GetStream("animalcowSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap animaldog {
             get {
                 object obj = ResourceManager.GetObject("animaldog", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animaldogSound {
+            get {
+                return ResourceManager.GetStream("animaldogSound", resourceCulture);
             }
         }
         
@@ -111,12 +147,30 @@ namespace AppForStudyingOssetianWords.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalduckSound {
+            get {
+                return ResourceManager.GetStream("animalduckSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap animalfox {
             get {
                 object obj = ResourceManager.GetObject("animalfox", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalfoxSound {
+            get {
+                return ResourceManager.GetStream("animalfoxSound", resourceCulture);
             }
         }
         
@@ -131,12 +185,30 @@ namespace AppForStudyingOssetianWords.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalhareSound {
+            get {
+                return ResourceManager.GetStream("animalhareSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap animalsquirrel {
             get {
                 object obj = ResourceManager.GetObject("animalsquirrel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalsquirrelSound {
+            get {
+                return ResourceManager.GetStream("animalsquirrelSound", resourceCulture);
             }
         }
         
@@ -151,6 +223,15 @@ namespace AppForStudyingOssetianWords.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
+        /// </summary>
+        public static System.IO.UnmanagedMemoryStream animalturtleSound {
+            get {
+                return ResourceManager.GetStream("animalturtleSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap animalwolf {
@@ -161,21 +242,20 @@ namespace AppForStudyingOssetianWords.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Поиск локализованного ресурса типа System.IO.UnmanagedMemoryStream, аналогичного System.IO.MemoryStream.
         /// </summary>
-        public static System.Drawing.Bitmap grassButterflies {
+        public static System.IO.UnmanagedMemoryStream animalwolfSound {
             get {
-                object obj = ResourceManager.GetObject("grassButterflies", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetStream("animalwolfSound", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap landscape {
+        public static System.Drawing.Bitmap grassButterflies {
             get {
-                object obj = ResourceManager.GetObject("landscape", resourceCulture);
+                object obj = ResourceManager.GetObject("grassButterflies", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
